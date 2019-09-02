@@ -1,4 +1,6 @@
-*** variable generation ***
+ use "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/build_data/input/rscfp2007.dta"
+
+*** Variable generation ***
 
 gen Inf = 1.1602
 
@@ -11,3 +13,6 @@ gen inc = (wageinc + bussefarminc + intdivinc + kginc + ssretinc + transfothinc 
 
 gen wealth = networth/Inf
 
+*** The end of variable generation ***
+
+save "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/build_data/output/SCF_EIWdata.dta"
