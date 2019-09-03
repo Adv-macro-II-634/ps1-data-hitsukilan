@@ -15,10 +15,18 @@ mat colname total = earning income wealth
 pctile earning [aweight=wgt],p(40,99)
 
 
-*location of mean (%)
+*location of mean (%) & mean/median
+
+tabstat earning income wealth [aweight=wgt], statistics(mean median)
+
+pctile earning_pct = earning [aweight=wgt], nq(100) gen(percent)
+pctile income_pct =income [aweight=wgt], nq(100)
+pctile wealth_pct = wealth [aweight=wgt], nq(100)
+
+list percent earning_pct income_pct wealth_pct
 
 
 
-*mean/median
 
-tabstat earning income wealth [aweight=wgt], statistics(mean median p99)
+
+
