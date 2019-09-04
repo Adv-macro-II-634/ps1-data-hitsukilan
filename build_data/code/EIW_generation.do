@@ -1,4 +1,6 @@
- use "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/build_data/input/rscfp2007.dta"
+clear
+
+use "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/build_data/input/rscfp2007.dta"
 
 *** Variable generation ***
 

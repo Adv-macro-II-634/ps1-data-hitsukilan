@@ -1,3 +1,7 @@
+clear
+
+use "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/input/SCF_EIWdata.dta"
+
 *** Table 2 Concentration and Skewness ***
 
 *Gini coefficient, coefficient of variantion, variance of the logs
@@ -12,7 +16,7 @@ mat total = [aa,bb,cc]
 mat colname total = earning income wealth
 
 ***top 1%/lowest40%***
-pctile earning [aweight=wgt],p(40,99)
+_pctile earning [aweight=wgt],p(40,99)
 
 
 *location of mean (%) & mean/median
