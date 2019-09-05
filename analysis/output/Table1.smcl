@@ -1,0 +1,70 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}Table1
+       {txt}log:  {res}/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/output/Table1.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 4 Sep 2019, 21:09:52
+{txt}
+{com}. 
+. *** Table 1 Percentile Analysis ***
+. 
+. tabstat earning income wealth [aweight=wgt],s(min p1 p5 p10 p90 p95 p99 max) c(s)
+
+{txt}{ralign 12:variable} {...}
+{c |}       min        p1        p5       p10       p90       p95       p99
+{hline 13}{c +}{hline 70}
+{ralign 12:earning} {...}
+{c |}{...}
+ {res} -1543586         0         0         0  125828.1  179817.9  496049.5
+{txt}{ralign 12:income} {...}
+{c |}{...}
+ {res}        0  4763.422  10479.53  14290.27  163147.2  239361.9  802636.6
+{txt}{ralign 12:wealth} {...}
+{c |}{...}
+ {res}-472807.9 -31201.13 -4591.337   29.9435  908585.6   1896592   8358769
+{txt}{hline 13}{c BT}{hline 70}
+
+{ralign 12:variable} {...}
+{c |}       max
+{hline 13}{c +}{hline 10}
+{ralign 12:earning} {...}
+{c |}{...}
+ {res} 1.61e+08
+{txt}{ralign 12:income} {...}
+{c |}{...}
+ {res} 2.16e+08
+{txt}{ralign 12:wealth} {...}
+{c |}{...}
+ {res} 1.41e+09
+{txt}{hline 13}{c BT}{hline 10}
+
+{com}. 
+. pctile earning_pct = earning [aweight=wgt], nq(5) gen (percentile)
+{txt}
+{com}. pctile income_pct = income [aweight=wgt], nq(5) 
+{txt}
+{com}. pctile wealth_pct = wealth [aweight=wgt], nq(5) 
+{txt}
+{com}. 
+. list percentile earning_pct income_pct wealth_pct in 1/4, sep(0)
+{txt}
+     {c TLC}{hline 10}{c -}{hline 10}{c -}{hline 10}{c -}{hline 10}{c TRC}
+     {c |} {res}percen~e   earnin~t   income~t   wealth~t {txt}{c |}
+     {c LT}{hline 10}{c -}{hline 10}{c -}{hline 10}{c -}{hline 10}{c RT}
+  1. {c |} {res}      20          0   23817.11   7316.195 {txt}{c |}
+  2. {c |} {res}      40   25660.56    42870.8   64792.75 {txt}{c |}
+  3. {c |} {res}      60    50294.7   69069.62   197527.3 {txt}{c |}
+  4. {c |} {res}      80   87313.45   113131.3   495964.2 {txt}{c |}
+     {c BLC}{hline 10}{c -}{hline 10}{c -}{hline 10}{c -}{hline 10}{c BRC}
+
+{com}. 
+. *** The end of Table 1 ***
+. 
+. log close Table1
+      {txt}name:  {res}Table1
+       {txt}log:  {res}/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/output/Table1.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 4 Sep 2019, 21:09:52
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

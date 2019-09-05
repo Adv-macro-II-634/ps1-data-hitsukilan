@@ -1,6 +1,12 @@
+********** HW1 **********
+
 clear
 
 use "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/input/SCF_EIWdata.dta"
+
+cd "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/output"
+
+log using Table2, name(Table2) replace
 
 *** Table 2 Concentration and Skewness ***
 
@@ -14,6 +20,7 @@ mat cc= r(b)
 
 mat total = [aa,bb,cc]
 mat colname total = earning income wealth
+mat list total
 
 ***top 1%/lowest40%***
 _pctile earning [aweight=wgt],p(40,99)
@@ -27,7 +34,15 @@ pctile earning_pct = earning [aweight=wgt], nq(100) gen(percent)
 pctile income_pct =income [aweight=wgt], nq(100)
 pctile wealth_pct = wealth [aweight=wgt], nq(100)
 
-list percent earning_pct income_pct wealth_pct
+list percent earning_pct income_pct wealth_pct in 1/99
+
+***The end of Table 2 ***
+
+log close Table2
+
+
+
+
 
 
 

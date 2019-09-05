@@ -1,6 +1,12 @@
+********** HW1 **********
+
 clear
 
 use "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/input/SCF_EIWdata.dta"
+
+cd "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/output"
+
+log using Table1,  name(Table1) replace
 
 *** Table 1 Percentile Analysis ***
 
@@ -14,4 +20,4 @@ list percentile earning_pct income_pct wealth_pct in 1/4, sep(0)
 
 *** The end of Table 1 ***
 
-
+log close Table1
