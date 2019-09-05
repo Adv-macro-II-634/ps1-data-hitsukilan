@@ -1,17 +1,34 @@
+********** HW1 **********
+
 clear
 
 use "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/input/SCF_EIWdata.dta"
 
-*** Lorenz Curve ***
 cd "/Users/Lan/Documents/GitHub/ps1-data-hitsukilan/analysis/output"
 
-lorenz estimate earning [weight=wgt]
-lorenz graph, aspectratio(1) saving(Earning_LC)
+cap erase Earning_LC.jpg
+cap erase Income_LC.jpg
+cap erase Wealth_LC.jpg
+*** Lorenz Curve ***
 
-lorenz estimate income [weight=wgt]
-lorenz graph, aspectratio(1) saving(Income_LC)
+lorenz estimate earning [weight=wgt], notable
+lorenz graph, noci ytitle(Earning share) ///
+              title(Lorenz Curve of Earning in 2007) ///
+			  legend(off) 	///
+			  saving(Earning_LC.jpg)
 
-lorenz estimate wealth [weight=wgt]
-lorenz graph, aspectratio(1) saving (Wealth_LC)
+lorenz estimate income [weight=wgt], notable
+lorenz graph, noci ytitle(Income share)	 ///
+              title(Lorenz Curve of Income in 2007)	 ///
+			  legend(off)	///
+			  saving(Income_LC.jpg)
+
+
+lorenz estimate wealth [weight=wgt], notable
+lorenz graph, noci ytitle(Wealth share) ///
+              title(Lorenz Curve of Wealth in 2007) ///
+			  legend(off)	///
+			  saving(Wealth_LC.jpg)
 
 *** The end of Lorenz Curve ***
+
