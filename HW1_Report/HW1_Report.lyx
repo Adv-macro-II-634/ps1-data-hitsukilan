@@ -1,0 +1,754 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsart
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size large
+Homework 1
+\end_layout
+
+\begin_layout Author
+Danqing Lan
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+
+\size large
+Problem I
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+PSID is the longest running longitudinal household survey can observe individual
+s’ lifecycle.
+ It contains both family level and individual level data, which makes it
+ ideally suited for studying intergenerational issues.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Mazumder (2016) uses the PSID data to review the intergenerational income
+ elasticity, which is a measurement of the degree of intergenerational income
+ persistence.
+ He estimates the IGE using longtime averages of parent income in addition
+ to deal with lifecycle bias.
+ He uses up to 15-year average of father’s income and center the time averages
+ of income in each generation at age 40 and obtains an IGE which is higher
+ than 0.6.
+ I am thinking about to extending the concept of intergenerational income
+ elasticity into the field of gender inequality.
+ Since the gender income gap has been narrowed but still around 0.8, I want
+ to see whether the income gap within a household, typically between husband
+ and wife, will also persistent intergenerationally and what can explain
+ those persistent? Therefore, my research question will be “Is there intergenera
+tional transfer to the income gap between couples.
+ 
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Also, there is a relative paper on the intergenerational gender gap.
+ However, they used a different data set in Norway.
+ Haaland et al (2018), use rich longitudinal registry data between 1970-2009
+ which covering the entire Norway to investigate the extent to which the
+ gap in employment rates between genders is shaped by the intergenerational
+ transfer of gender norm.
+ They found that the municipality characteristics and a parsimonious set
+ of family measured in children can explain a substantial part of the gender
+ gap, especially on female employment.
+ What I am looking to investigate is, on the other hand, the intergenerational
+ income gap between women and men.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+
+\size large
+Problem II
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size large
+\begin_inset space ~
+\end_inset
+
+
+\size default
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Table 20 in Kuhn (2015) shows the persistence of earning, income and wealth
+ between 2007 and 2009.
+ From the table we can see that there is a highly symmetric mobility patterns
+ across all the distribution.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Recently, I am reading about the term called 
+\begin_inset Quotes eld
+\end_inset
+
+economic freedom
+\begin_inset Quotes erd
+\end_inset
+
+, which is the ability of people of a society to take economic actions without
+ intervention from the government or economic authority.
+ I would like to see how the mobility pattern is related to economic freedom.
+ That is, moving from a low economic freedom area to a high economic freedom
+ area, controlling other factors, will increase or decrease the mobility
+ of earning, income or wealth from a lower quintile to higher quintile at
+ individual level.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Shumway(2018) studied the relationship between economic freedom and migration
+ as well as income change among U.S.
+ metropolitan areas by using EFIMA created by Dean Stansel and the administrativ
+e IRS data.
+ They found that metropolitan areas with higher levels of economic freedom
+ tend to have a net in-migration and positive changes in aggregate and per
+ capita income.
+ Comparing to Shumway’s work, I think alternative data set needs to be used
+ since I am looking into the individual level instead of an aggregate level.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+
+\size large
+Problem III
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The data I use in this homework is the extract data set of summary variables
+ that are used in the Federal Reserve Bulletin article.
+ According to the description on federal reserve website, all the dollar
+ variables in this data set are inflation-adjusted to 2016 dollars.
+ Thus, to replicate Gimenez et al’s work, all data need to be readjusted
+ back to 2007 dollars using the “current methods” of the consumer price
+ index for all urban consumers or CPI-U-RS.
+ The yearly average data of official CPI-U-RS is provided by the Bureau
+ of Labor Statistics.
+ The replication results are shown in Table 1 and Table 2 and the origin
+ table are shown in Figure 1 and Figure 2.
+ Note that the results I got are slightly different to the original quarter
+ report because of I did not use the original data set.
+ However, my reuslt should be more accurate because minor data errors has
+ been corrected as well as the survey weights has been revised in the data
+ set I used.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Lorenz Curve of earning, income and wealth of 2007 are shown in Figure 3.
+ Earning and income in 2007 seems to have a very similar pattern, which
+ indicates the inequalities of earning and income are close to each other.
+ At mean time, income is slightly more equal than earning in 2007.
+ While there are obvious inequality in wealth.
+ From the Lorenz Curve of wealth we can see that lowest 40% of the population
+ have almost zero percent of total wealth and top 5% of the population have
+ around 60% of total wealth in 2007.
+ This result consists with the high number of top 1% / lowest 40% I obtained
+ in Table 2.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[b]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Replication of Table 1
+\backslash
+label{time}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lcccccccccccc} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+Quantile & min & p1 & p5 & p10 & p20 & p40 & p60 & p80 & p90 & p95 & p99
+ & max 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+earning & -1,543.6 & 0.0 & 0.0 & 0.0 & 0.0 & 25.7 & 50.3 & 87.3 & 126 & 179.8 & 496.0
+ & 161,217.3 
+\backslash
+
+\backslash
+ income & -504.8 & 4.2 & 8.9 & 12.3 & 20.0 & 36.2 & 58.7 & 98.5 & 141.7 & 206.8 &
+ 679.4 & 186,847.9 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+wealth & -472.8 & -31.2 & -4.6 & 0.0 & 7.3  & 64.8 & 197.5 & 460.0 & 908.6 & 1,896.6
+ & 8,358.8 & 1,409,071
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Table 1 in QR report
+\backslash
+label{time}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Charts and Graphs/Table1_orig.png
+	lyxscale 50
+	scale 22
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Table 2 in QR report
+\backslash
+label{time}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Charts and Graphs/Table2_orig.png
+	lyxscale 50
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[b]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Replication of Table 2
+\backslash
+label{time}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lccc} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+ & Earnings & Income & Wealth 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+Coefficient of Variation & 3.60 & 4.32 & 6.01 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Variance of the logs & 1.29 & 0.99 & 4.53
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gini index & 0.64 & 0.57 & 0.82 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Top 1/lowest 40 & 183 & 87 & 1,525 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Location of mean & 69 & 75 & 82
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Mean / media & 1.73 & 1.75 & 4.60
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Table 2 in QR report
+\backslash
+label{time}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Charts and Graphs/Earning_LC.png
+	lyxscale 23
+	scale 23
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Charts and Graphs/Income_LC.png
+	lyxscale 23
+	scale 23
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Charts and Graphs/Wealth_LC.png
+	lyxscale 23
+	scale 23
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
