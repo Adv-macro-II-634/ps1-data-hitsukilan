@@ -365,11 +365,11 @@ The data I use in this homework is the extract data set of summary variables
  of Labor Statistics.
  The replication results are shown in Table 1 and Table 2 and the origin
  table are shown in Figure 1 and Figure 2.
- Note that the results I got are slightly different to the original quarter
+ Note that the results I got are slightly different with the original quarter
  report because of I did not use the original data set.
  However, my reuslt should be more accurate because minor data errors has
  been corrected as well as the survey weights has been revised in the data
- set I used.
+ set from Rederal Reserve Bulletin.
 \begin_inset Newline newline
 \end_inset
 

@@ -133,7 +133,7 @@ s’ lifecycle.
 \begin_layout Standard
 
 \size large
-Mazumder (2016) uses the PSID data to review the intergenerational income
+Mazumder (2005) uses the PSID data to review the intergenerational income
  elasticity, which is a measurement of the degree of intergenerational income
  persistence.
  He estimates the IGE using longtime averages of parent income in addition
@@ -174,6 +174,72 @@ Also, there is a relative paper on the intergenerational gender gap.
  What I am looking to investigate is, on the other hand, the intergenerational
  income gap between women and men.
 \begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+Mazumder, Bhashkar, 2005b.
+ “The Apple Falls Even Farther From the Tree Than We Thought: New and Revised
+ Estimates of the Intergenerational Inheritance of Earnings", Intergenerational
+ Inequality, Bowles, S., Gintis, H.
+ and Osborne-Groves M.
+ eds., Russell Sage Foundation, Princeton.
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+Venke Furre Haaland & Mari Rege & Kjetil Telle & Mark Votruba, 2014.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The intergenerational transfer of the employment gender gap,
+\begin_inset Quotes erd
+\end_inset
+
+ Discussion Papers 767, Statistics Norway, Research Department.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+Shumway, J.
+ M.
+ ,2018.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Economic Freedom, Migration and Income Change among U.S.
+ Metropolitan Areas.
+ Current Urban Studies
+\begin_inset Quotes erd
+\end_inset
+
+, 6, 1-20.
+ https://doi.org/10.4236/cus.2018.61001
+\end_layout
+
 \end_inset
 
 
@@ -299,7 +365,7 @@ The data I use in this homework is the extract data set of summary variables
  of Labor Statistics.
  The replication results are shown in Table 1 and Table 2 and the origin
  table are shown in Figure 1 and Figure 2.
- Note that the results I got are slightly different to the original quarter
+ Note that the results I got are slightly different with the original quarter
  report because of I did not use the original data set.
  However, my reuslt should be more accurate because minor data errors has
  been corrected as well as the survey weights has been revised in the data
